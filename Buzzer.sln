@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzzer", "Buzzer\Buzzer.csproj", "{5CB78052-0D41-47CD-B1A8-B1C2C46F49C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzzer.Data.Test", "Buzzer.Data.Test\Buzzer.Data.Test.csproj", "{2BF35BD1-3E55-473C-8984-0BBD8F42B7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzzer.Data.Repository", "Buzzer.Data.Repository\Buzzer.Data.Repository.csproj", "{48CF6500-978B-4093-B509-04DEC4EA3982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzzer.Data", "Buzzer.Data\Buzzer.Data.csproj", "{0C35254E-A14A-4D0C-AC6F-BE974545631B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F088FAA7-74E9-44EB-B92E-97695F1EBE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzzer.Entity", "Buzzer.Entity\Buzzer.Entity.csproj", "{D5488971-DD90-40E9-85C8-B8E5C621AB0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B5781DE5-A40A-4B5D-A9CD-BE988EAE9300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CB78052-0D41-47CD-B1A8-B1C2C46F49C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB78052-0D41-47CD-B1A8-B1C2C46F49C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB78052-0D41-47CD-B1A8-B1C2C46F49C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB78052-0D41-47CD-B1A8-B1C2C46F49C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF35BD1-3E55-473C-8984-0BBD8F42B7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF35BD1-3E55-473C-8984-0BBD8F42B7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF35BD1-3E55-473C-8984-0BBD8F42B7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF35BD1-3E55-473C-8984-0BBD8F42B7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CF6500-978B-4093-B509-04DEC4EA3982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CF6500-978B-4093-B509-04DEC4EA3982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CF6500-978B-4093-B509-04DEC4EA3982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CF6500-978B-4093-B509-04DEC4EA3982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C35254E-A14A-4D0C-AC6F-BE974545631B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C35254E-A14A-4D0C-AC6F-BE974545631B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C35254E-A14A-4D0C-AC6F-BE974545631B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C35254E-A14A-4D0C-AC6F-BE974545631B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5488971-DD90-40E9-85C8-B8E5C621AB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5488971-DD90-40E9-85C8-B8E5C621AB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5488971-DD90-40E9-85C8-B8E5C621AB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5488971-DD90-40E9-85C8-B8E5C621AB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48CF6500-978B-4093-B509-04DEC4EA3982} = {F088FAA7-74E9-44EB-B92E-97695F1EBE03}
+		{0C35254E-A14A-4D0C-AC6F-BE974545631B} = {F088FAA7-74E9-44EB-B92E-97695F1EBE03}
+		{D5488971-DD90-40E9-85C8-B8E5C621AB0A} = {B5781DE5-A40A-4B5D-A9CD-BE988EAE9300}
+	EndGlobalSection
+EndGlobal
